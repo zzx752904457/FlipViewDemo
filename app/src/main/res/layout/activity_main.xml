@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:flipview="http://schemas.android.com/apk/res-auto"
+    tools:context="githubzzx752904457.com.demo.MainActivity">
+
+    <se.emilsjolander.flipview.FlipView
+        android:id="@+id/flipview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        flipview:orientation="vertical"
+        flipview:overFlipMode="glow" />
+</RelativeLayout>
